@@ -251,8 +251,7 @@
     const city = cityBySlug(requestedCity);
     const citySlug = city.slug;
     const cityName = city.name;
-    const cityImageSlugs = new Set(["madrid","barcelona","valencia","sevilla","granada","salamanca","bilbao","malaga"]);
-    const heroImage = cityImageSlugs.has(citySlug) ? `assets/img/ciudad-${citySlug}.svg` : "assets/img/espana-propuesta1.svg";
+    const heroImage = city.heroImage || "assets/img/spagna-proposta1.webp";
     document.title = `Alojamientos para estudiantes en ${cityName} | StudentBnB`;
     const metaDescription = qs('meta[name="description"]');
     if(metaDescription) metaDescription.content = `Habitaciones y pisos para estudiantes en ${cityName}, con alquiler, gastos y condiciones comparables.`;

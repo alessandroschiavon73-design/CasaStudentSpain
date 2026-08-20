@@ -1,490 +1,406 @@
 window.STUDENTBNB_CITIES = [
   {
     "id": "city_es_madrid",
-    "countryCode": "ES",
     "slug": "madrid",
     "name": "Madrid",
-    "region": "Comunidad de Madrid"
+    "region": "Comunidad de Madrid",
+    "heroImage": "assets/img/citta-madrid.webp",
+    "market": "metropolitan",
+    "countryCode": "ES",
+    "studentMarket": "20k+",
+    "active": true
   },
   {
     "id": "city_es_barcelona",
-    "countryCode": "ES",
     "slug": "barcelona",
     "name": "Barcelona",
-    "region": "Cataluña"
+    "region": "Cataluña",
+    "heroImage": "assets/img/citta-barcelona.webp",
+    "market": "metropolitan",
+    "countryCode": "ES",
+    "studentMarket": "20k+",
+    "active": true
   },
   {
     "id": "city_es_valencia",
-    "countryCode": "ES",
     "slug": "valencia",
     "name": "Valencia",
-    "region": "Comunitat Valenciana"
+    "region": "Comunitat Valenciana",
+    "heroImage": "assets/img/citta-valencia.webp",
+    "market": "city",
+    "countryCode": "ES",
+    "studentMarket": "20k+",
+    "active": true
   },
   {
     "id": "city_es_sevilla",
-    "countryCode": "ES",
     "slug": "sevilla",
     "name": "Sevilla",
-    "region": "Andalucía"
+    "region": "Andalucía",
+    "heroImage": "assets/img/citta-sevilla.webp",
+    "market": "city",
+    "countryCode": "ES",
+    "studentMarket": "20k+",
+    "active": true
   },
   {
     "id": "city_es_granada",
-    "countryCode": "ES",
     "slug": "granada",
     "name": "Granada",
-    "region": "Andalucía"
-  },
-  {
-    "id": "city_es_salamanca",
+    "region": "Andalucía",
+    "heroImage": "assets/img/citta-granada.webp",
+    "market": "city",
     "countryCode": "ES",
-    "slug": "salamanca",
-    "name": "Salamanca",
-    "region": "Castilla y León"
+    "studentMarket": "20k+",
+    "active": true
   },
   {
     "id": "city_es_zaragoza",
-    "countryCode": "ES",
     "slug": "zaragoza",
     "name": "Zaragoza",
-    "region": "Aragón"
-  },
-  {
-    "id": "city_es_bilbao",
+    "region": "Aragón",
+    "heroImage": "assets/img/citta-zaragoza.webp",
+    "market": "city",
     "countryCode": "ES",
-    "slug": "bilbao",
-    "name": "Bilbao",
-    "region": "País Vasco"
+    "studentMarket": "20k+",
+    "active": true
   },
   {
     "id": "city_es_malaga",
-    "countryCode": "ES",
     "slug": "malaga",
     "name": "Málaga",
-    "region": "Andalucía"
-  },
-  {
-    "id": "city_es_alicante",
+    "region": "Andalucía",
+    "heroImage": "assets/img/citta-malaga.webp",
+    "market": "city",
     "countryCode": "ES",
-    "slug": "alicante",
-    "name": "Alicante",
-    "region": "Comunitat Valenciana"
+    "studentMarket": "20k+",
+    "active": true
   },
   {
     "id": "city_es_murcia",
-    "countryCode": "ES",
     "slug": "murcia",
     "name": "Murcia",
-    "region": "Región de Murcia"
+    "region": "Región de Murcia",
+    "heroImage": "assets/img/citta-murcia.webp",
+    "market": "city",
+    "countryCode": "ES",
+    "studentMarket": "20k+",
+    "active": true
   },
   {
-    "id": "city_es_valladolid",
+    "id": "city_es_alicante",
+    "slug": "alicante",
+    "name": "Alicante–San Vicente",
+    "region": "Comunitat Valenciana",
+    "heroImage": "assets/img/citta-alicante.webp",
+    "market": "university_pole",
     "countryCode": "ES",
-    "slug": "valladolid",
-    "name": "Valladolid",
-    "region": "Castilla y León"
+    "studentMarket": "20k+",
+    "active": true
+  },
+  {
+    "id": "city_es_salamanca",
+    "slug": "salamanca",
+    "name": "Salamanca",
+    "region": "Castilla y León",
+    "heroImage": "assets/img/citta-salamanca.webp",
+    "market": "city",
+    "countryCode": "ES",
+    "studentMarket": "20k+",
+    "active": true
   },
   {
     "id": "city_es_santiago_de_compostela",
-    "countryCode": "ES",
     "slug": "santiago-de-compostela",
     "name": "Santiago de Compostela",
-    "region": "Galicia"
+    "region": "Galicia",
+    "heroImage": "assets/img/citta-santiago.webp",
+    "market": "university_pole",
+    "countryCode": "ES",
+    "studentMarket": "20k+",
+    "active": true
   },
   {
-    "id": "city_es_a_coruna",
+    "id": "city_es_valladolid",
+    "slug": "valladolid",
+    "name": "Valladolid",
+    "region": "Castilla y León",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Valladolid%20-%20Plaza%20Mayor%2002b.jpg?width=1600",
+    "market": "university_pole",
     "countryCode": "ES",
-    "slug": "a-coruna",
-    "name": "A Coruña",
-    "region": "Galicia"
+    "studentMarket": "20k+",
+    "active": true
   },
   {
-    "id": "city_es_vigo",
+    "id": "city_es_bilbao",
+    "slug": "bilbao",
+    "name": "Bilbao–Leioa",
+    "region": "País Vasco",
+    "heroImage": "assets/img/citta-bilbao.webp",
+    "market": "university_pole",
     "countryCode": "ES",
-    "slug": "vigo",
-    "name": "Vigo",
-    "region": "Galicia"
-  },
-  {
-    "id": "city_es_oviedo",
-    "countryCode": "ES",
-    "slug": "oviedo",
-    "name": "Oviedo",
-    "region": "Asturias"
-  },
-  {
-    "id": "city_es_santander",
-    "countryCode": "ES",
-    "slug": "santander",
-    "name": "Santander",
-    "region": "Cantabria"
-  },
-  {
-    "id": "city_es_pamplona",
-    "countryCode": "ES",
-    "slug": "pamplona",
-    "name": "Pamplona",
-    "region": "Navarra"
-  },
-  {
-    "id": "city_es_san_sebastian",
-    "countryCode": "ES",
-    "slug": "san-sebastian",
-    "name": "San Sebastián",
-    "region": "País Vasco"
+    "studentMarket": "20k+",
+    "active": true
   },
   {
     "id": "city_es_cordoba",
-    "countryCode": "ES",
     "slug": "cordoba",
     "name": "Córdoba",
-    "region": "Andalucía"
+    "region": "Andalucía",
+    "heroImage": "assets/img/citta-cordoba.webp",
+    "market": "university_pole",
+    "countryCode": "ES",
+    "studentMarket": "20k+",
+    "active": true
   },
   {
-    "id": "city_es_cadiz",
+    "id": "city_es_pamplona",
+    "slug": "pamplona",
+    "name": "Pamplona",
+    "region": "Navarra",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Pamplona%20-%20Plaza%20del%20Castillo%2011.jpg?width=1600",
+    "market": "city",
     "countryCode": "ES",
-    "slug": "cadiz",
-    "name": "Cádiz",
-    "region": "Andalucía"
-  },
-  {
-    "id": "city_es_castellon",
-    "countryCode": "ES",
-    "slug": "castellon",
-    "name": "Castellón de la Plana",
-    "region": "Comunitat Valenciana"
-  },
-  {
-    "id": "city_es_tarragona",
-    "countryCode": "ES",
-    "slug": "tarragona",
-    "name": "Tarragona",
-    "region": "Cataluña"
-  },
-  {
-    "id": "city_es_lleida",
-    "countryCode": "ES",
-    "slug": "lleida",
-    "name": "Lleida",
-    "region": "Cataluña"
-  },
-  {
-    "id": "city_es_girona",
-    "countryCode": "ES",
-    "slug": "girona",
-    "name": "Girona",
-    "region": "Cataluña"
-  },
-  {
-    "id": "city_es_alcala_de_henares",
-    "countryCode": "ES",
-    "slug": "alcala-de-henares",
-    "name": "Alcalá de Henares",
-    "region": "Comunidad de Madrid"
-  },
-  {
-    "id": "city_es_toledo",
-    "countryCode": "ES",
-    "slug": "toledo",
-    "name": "Toledo",
-    "region": "Castilla-La Mancha"
-  },
-  {
-    "id": "city_es_ciudad_real",
-    "countryCode": "ES",
-    "slug": "ciudad-real",
-    "name": "Ciudad Real",
-    "region": "Castilla-La Mancha"
-  },
-  {
-    "id": "city_es_albacete",
-    "countryCode": "ES",
-    "slug": "albacete",
-    "name": "Albacete",
-    "region": "Castilla-La Mancha"
-  },
-  {
-    "id": "city_es_leon",
-    "countryCode": "ES",
-    "slug": "leon",
-    "name": "León",
-    "region": "Castilla y León"
-  },
-  {
-    "id": "city_es_burgos",
-    "countryCode": "ES",
-    "slug": "burgos",
-    "name": "Burgos",
-    "region": "Castilla y León"
-  },
-  {
-    "id": "city_es_caceres",
-    "countryCode": "ES",
-    "slug": "caceres",
-    "name": "Cáceres",
-    "region": "Extremadura"
-  },
-  {
-    "id": "city_es_las_palmas",
-    "countryCode": "ES",
-    "slug": "las-palmas",
-    "name": "Las Palmas de Gran Canaria",
-    "region": "Canarias"
+    "studentMarket": "20k+",
+    "active": true
   },
   {
     "id": "city_es_la_laguna",
-    "countryCode": "ES",
     "slug": "la-laguna",
-    "name": "San Cristóbal de La Laguna",
-    "region": "Canarias"
+    "name": "La Laguna–Santa Cruz",
+    "region": "Canarias",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Plaza%20Junta%20Suprema%2C%20San%20Crist%C3%B3bal%20de%20La%20Laguna%205.jpg?width=1600",
+    "market": "university_pole",
+    "countryCode": "ES",
+    "studentMarket": "20k+",
+    "active": true
   },
   {
-    "id": "city_es_palma",
+    "id": "city_es_oviedo",
+    "slug": "oviedo",
+    "name": "Oviedo–Gijón",
+    "region": "Asturias",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Catedral%20de%20Oviedo%20desde%20Porlier.jpg?width=1600",
+    "market": "university_pole",
     "countryCode": "ES",
-    "slug": "palma",
-    "name": "Palma",
-    "region": "Illes Balears"
+    "studentMarket": "20k+",
+    "active": true
   },
   {
-    "id": "city_es_jaen",
+    "id": "city_es_alcala_de_henares",
+    "slug": "alcala-de-henares",
+    "name": "Alcalá de Henares",
+    "region": "Comunidad de Madrid",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Universidad%20de%20Alcal%C3%A1%20de%20Henares%2C%20fachada.jpg?width=1600",
+    "market": "university_pole",
     "countryCode": "ES",
-    "slug": "jaen",
-    "name": "Jaén",
-    "region": "Andalucía"
+    "studentMarket": "20k+",
+    "active": true
   },
   {
-    "id": "city_es_huelva",
+    "id": "city_es_cadiz",
+    "slug": "cadiz",
+    "name": "Cádiz–Puerto Real",
+    "region": "Andalucía",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Catedral%20of%20Cadiz.jpg?width=1600",
+    "market": "university_pole",
     "countryCode": "ES",
-    "slug": "huelva",
-    "name": "Huelva",
-    "region": "Andalucía"
-  },
-  {
-    "id": "city_es_almeria",
-    "countryCode": "ES",
-    "slug": "almeria",
-    "name": "Almería",
-    "region": "Andalucía"
+    "studentMarket": "20k+",
+    "active": true
   }
 ];
 
 window.STUDENTBNB_ZONES = {
   "madrid": [
-    "Centro",
-    "Arganzuela",
+    "Argüelles",
+    "Centro–Malasaña",
+    "Chamberí",
+    "Ciudad Universitaria",
+    "La Latina",
+    "Lavapiés",
+    "Moncloa",
     "Retiro",
     "Salamanca",
-    "Chamartín",
     "Tetuán",
-    "Chamberí",
-    "Fuencarral-El Pardo",
-    "Moncloa-Aravaca",
-    "Latina",
-    "Carabanchel",
-    "Usera",
-    "Puente de Vallecas",
-    "Moratalaz",
-    "Ciudad Lineal",
-    "Hortaleza",
-    "Villaverde",
-    "Villa de Vallecas",
-    "Vicálvaro",
-    "San Blas-Canillejas",
-    "Barajas"
+    "Vallecas",
+    "Vicálvaro"
   ],
   "barcelona": [
     "Ciutat Vella",
     "Eixample",
-    "Sants-Montjuïc",
-    "Les Corts",
-    "Sarrià-Sant Gervasi",
     "Gràcia",
-    "Horta-Guinardó",
-    "Nou Barris",
+    "Horta–Guinardó",
+    "Les Corts",
+    "Poblenou",
+    "Poble-sec",
+    "Sarrià–Sant Gervasi",
+    "Sants–Montjuïc",
     "Sant Andreu",
     "Sant Martí",
-    "Poblenou",
-    "Poble-sec"
+    "Zona Universitària"
   ],
   "valencia": [
-    "Ciutat Vella",
-    "L'Eixample",
-    "Extramurs",
-    "Campanar",
-    "La Saïdia",
-    "El Pla del Real",
-    "L'Olivereta",
-    "Patraix",
-    "Jesús",
-    "Quatre Carreres",
-    "Poblats Marítims",
-    "Camins al Grau",
     "Algirós",
     "Benimaclet",
-    "Rascanya"
+    "Benicalap",
+    "Campanar",
+    "Ciutat Vella",
+    "El Cabanyal",
+    "Extramurs",
+    "La Saïdia",
+    "L’Eixample",
+    "Malilla",
+    "Mestalla",
+    "Patraix",
+    "Quatre Carreres",
+    "Ruzafa"
   ],
   "sevilla": [
-    "Casco Antiguo",
-    "Triana",
+    "Alameda",
+    "Bellavista",
+    "Cerro del Águila",
+    "El Porvenir",
+    "La Cartuja",
+    "Los Bermejales",
     "Los Remedios",
-    "Nervión",
-    "San Pablo-Santa Justa",
     "Macarena",
-    "Norte",
-    "Cerro-Amate",
-    "Sur",
-    "Bellavista-La Palmera",
-    "Este-Alcosa-Torreblanca"
+    "Nervión",
+    "Prado de San Sebastián",
+    "San Bernardo",
+    "Santa Cruz",
+    "Triana"
   ],
   "granada": [
-    "Centro",
-    "Realejo",
     "Albaicín",
     "Beiro",
+    "Camino de Ronda",
+    "Centro–Realejo",
+    "Cerrillo de Maracena",
     "Chana",
-    "Genil",
-    "Norte",
+    "Fígares",
+    "La Cartuja",
+    "Pajaritos",
+    "Plaza de Toros",
     "Ronda",
-    "Zaidín",
-    "Cartuja"
-  ],
-  "salamanca": [
-    "Centro",
-    "San Bernardo",
-    "Garrido",
-    "Van Dyck",
-    "Pizarrales",
-    "Prosperidad",
-    "Tejares",
-    "Vidal",
-    "Campus Miguel de Unamuno"
+    "Zaidín"
   ],
   "zaragoza": [
-    "Casco Histórico",
+    "Actur",
     "Centro",
-    "Universidad",
     "Delicias",
-    "San José",
-    "Las Fuentes",
     "La Almozara",
-    "Actur-Rey Fernando",
-    "El Rabal",
-    "Torrero-La Paz",
-    "Casablanca",
-    "Miralbueno"
+    "La Magdalena",
+    "Las Fuentes",
+    "Romareda",
+    "San José",
+    "Universidad",
+    "Valdespartera",
+    "Torrero",
+    "Casco Histórico"
   ],
   "bilbao": [
     "Abando",
-    "Indautxu",
+    "Basurto",
+    "Begoña",
     "Casco Viejo",
     "Deusto",
-    "San Ignacio",
-    "Uribarri",
-    "Begoña",
+    "Indautxu",
+    "Irala",
+    "Rekalde",
+    "San Francisco",
     "Santutxu",
-    "Basurto-Zorrotza",
-    "Rekalde"
+    "Uribarri",
+    "Leioa / Campus UPV-EHU"
   ],
   "malaga": [
-    "Centro",
-    "Teatinos-Universidad",
-    "Cruz de Humilladero",
     "Carretera de Cádiz",
-    "Bailén-Miraflores",
-    "Este",
-    "Ciudad Jardín",
-    "Puerto de la Torre",
-    "Campanillas"
+    "Centro Histórico",
+    "Cruz de Humilladero",
+    "El Ejido",
+    "El Palo",
+    "Huelin",
+    "La Malagueta",
+    "La Merced",
+    "Pedregalejo",
+    "Teatinos",
+    "Victoria"
   ],
   "alicante": [
-    "Centro",
-    "Ensanche-Diputación",
     "Benalúa",
-    "San Blas",
-    "Carolinas",
     "Campoamor",
-    "Pla del Bon Repòs",
+    "Carolinas Altas/Bajas",
+    "Centro",
+    "Ensanche–Diputación",
+    "Mercado",
     "Playa de San Juan",
-    "Albufereta",
-    "Babel",
-    "San Vicente del Raspeig / Campus"
+    "San Blas",
+    "San Vicente del Raspeig / Campus",
+    "Vistahermosa"
   ],
   "murcia": [
     "Centro",
-    "La Merced",
-    "Vistalegre",
-    "La Flota",
-    "Santa María de Gracia",
     "El Carmen",
-    "Infante Juan Manuel",
     "Espinardo",
-    "Guadalupe",
-    "La Alberca"
+    "Infante Juan Manuel",
+    "La Flota",
+    "La Fama",
+    "La Merced",
+    "San Andrés",
+    "San Antón",
+    "Santa Eulalia",
+    "Vistalegre"
   ],
-  "valladolid": [
-    "Centro",
-    "Universidad",
-    "Hospital",
-    "Delicias",
-    "Rondilla",
-    "Parquesol",
-    "Huerta del Rey",
-    "Pajarillos",
-    "Covaresa",
-    "La Victoria"
+  "salamanca": [
+    "Centro Histórico",
+    "Garrido Norte",
+    "Garrido Sur",
+    "Pizarrales",
+    "San Bernardo",
+    "San José",
+    "San Vicente",
+    "Tejares",
+    "Van Dyck",
+    "Vidal",
+    "Campus Miguel de Unamuno"
   ],
   "santiago-de-compostela": [
-    "Casco Histórico",
-    "Ensanche",
-    "Campus Sur",
     "Campus Norte",
-    "San Pedro",
-    "Fontiñas",
+    "Campus Sur",
+    "Casco Histórico",
     "Conxo",
+    "Ensanche",
+    "Fontiñas",
+    "O Castiñeiriño",
+    "San Lázaro",
     "Santa Marta",
-    "Vite"
+    "Vista Alegre"
   ],
-  "a-coruna": [
-    "Ciudad Vieja",
+  "valladolid": [
+    "Arturo Eyries",
     "Centro",
-    "Riazor",
-    "Cuatro Caminos",
-    "Monte Alto",
-    "Matogrande",
-    "Elviña",
-    "Los Rosales",
-    "Someso"
+    "Covaresa",
+    "Delicias",
+    "Huerta del Rey",
+    "La Rondilla",
+    "Parquesol",
+    "Pilarica",
+    "Pinar de Jalón",
+    "San Juan",
+    "Universidad"
   ],
-  "vigo": [
+  "cordoba": [
     "Centro",
-    "Casco Vello",
-    "O Castro",
-    "Coia",
-    "Teis",
-    "Travesía de Vigo",
-    "Bouzas",
-    "Navia",
-    "Beade",
-    "Campus Lagoas-Marcosende"
-  ],
-  "oviedo": [
-    "Centro",
-    "El Cristo-Buenavista",
-    "La Argañosa",
-    "Pumarín",
-    "La Corredoria",
-    "Tenderina",
-    "Montecerrao",
-    "Vallobín"
-  ],
-  "santander": [
-    "Centro",
-    "Puertochico",
-    "Castilla-Hermida",
-    "General Dávila",
-    "El Sardinero",
-    "Cazoña",
-    "Valdenoja",
-    "Monte"
+    "Ciudad Jardín",
+    "El Brillante",
+    "Fátima",
+    "Fuensanta",
+    "Huerta de la Reina",
+    "Levante",
+    "Noreña",
+    "Poniente",
+    "San Basilio",
+    "Santa Marina",
+    "Rabanales / Campus"
   ],
   "pamplona": [
     "Casco Antiguo",
@@ -495,77 +411,35 @@ window.STUDENTBNB_ZONES = {
     "Azpilagaña",
     "Milagrosa",
     "Rochapea",
-    "Mendillorri"
+    "Mendillorri",
+    "Arrosadia / UPNA"
   ],
-  "san-sebastian": [
-    "Centro",
-    "Gros",
-    "Antiguo",
-    "Amara",
-    "Egia",
-    "Intxaurrondo",
-    "Aiete",
-    "Loiola"
+  "la-laguna": [
+    "Casco de La Laguna",
+    "La Cuesta",
+    "Taco",
+    "Finca España",
+    "Geneto",
+    "Guajara",
+    "La Verdellada",
+    "Campus Central",
+    "Santa Cruz Centro",
+    "La Salle",
+    "Ofra"
   ],
-  "cordoba": [
-    "Centro",
-    "Ciudad Jardín",
-    "Levante",
-    "Fátima",
-    "Fuensanta",
-    "Poniente Sur",
-    "Distrito Norte",
-    "El Brillante",
-    "Rabanales / Campus"
-  ],
-  "cadiz": [
-    "Centro Histórico",
-    "La Viña",
-    "El Mentidero",
-    "Santa María",
-    "La Laguna",
-    "Segunda Aguada",
-    "Bahía Blanca",
-    "Puntales"
-  ],
-  "castellon": [
-    "Centro",
-    "Rafalafena",
-    "Sensal",
-    "Estepar",
-    "Grao",
-    "UJI / Campus",
-    "Parque Ribalta"
-  ],
-  "tarragona": [
-    "Part Alta",
-    "Eixample",
-    "Nou Eixample Sud",
-    "Sant Pere i Sant Pau",
-    "Bonavista",
-    "Campclar",
-    "Torreforta",
-    "El Serrallo"
-  ],
-  "lleida": [
-    "Centre Històric",
-    "Cappont",
-    "Pardinyes",
-    "Balàfia",
-    "Zona Alta",
-    "Universitat",
-    "La Bordeta",
-    "Secà de Sant Pere"
-  ],
-  "girona": [
-    "Barri Vell",
-    "Eixample",
-    "Montilivi",
-    "Santa Eugènia",
-    "Sant Narcís",
-    "Devesa",
-    "Palau",
-    "Pont Major"
+  "oviedo": [
+    "Oviedo Centro",
+    "El Cristo–Buenavista",
+    "La Argañosa",
+    "Pumarín",
+    "La Corredoria",
+    "Tenderina",
+    "Montecerrao",
+    "Vallobín",
+    "Gijón Centro",
+    "El Llano",
+    "Viesques",
+    "Campus de Gijón"
   ],
   "alcala-de-henares": [
     "Centro Histórico",
@@ -575,389 +449,234 @@ window.STUDENTBNB_ZONES = {
     "Espartales",
     "La Garena",
     "Ensanche",
-    "Campus"
+    "Campus Científico-Tecnológico"
   ],
-  "toledo": [
-    "Casco Histórico",
-    "Santa Teresa",
-    "Buenavista",
-    "Santa Bárbara",
-    "Polígono",
-    "Palomarejos"
-  ],
-  "ciudad-real": [
-    "Centro",
-    "Universidad",
-    "El Torreón",
-    "Puerta de Toledo",
-    "Larache",
-    "Nuevo Parque"
-  ],
-  "albacete": [
-    "Centro",
-    "Universidad",
-    "Hospital",
-    "Franciscanos",
-    "Industria",
-    "Feria",
-    "Imaginalia",
-    "San Pablo"
-  ],
-  "leon": [
-    "Centro",
-    "San Mamés",
-    "La Palomera",
-    "El Ejido",
-    "Eras de Renueva",
-    "La Chantría",
-    "Universidad"
-  ],
-  "burgos": [
-    "Centro",
-    "Gamonal",
-    "Universidad",
-    "San Pedro y San Felices",
-    "Fuentecillas",
-    "Villímar"
-  ],
-  "caceres": [
-    "Centro",
-    "Ciudad Monumental",
-    "Mejostilla",
-    "Nuevo Cáceres",
-    "Campus",
-    "Moctezuma",
-    "El Perú"
-  ],
-  "las-palmas": [
-    "Vegueta",
-    "Triana",
-    "Arenales",
-    "Alcaravaneras",
-    "Mesa y López",
-    "Guanarteme",
-    "Las Canteras",
-    "Tafira / Campus"
-  ],
-  "la-laguna": [
-    "Casco",
-    "La Cuesta",
-    "Taco",
-    "Finca España",
-    "Geneto",
-    "Guajara",
-    "La Verdellada",
-    "Campus Central"
-  ],
-  "palma": [
-    "Centre",
-    "Santa Catalina",
-    "Son Armadans",
-    "Pere Garau",
-    "Foners",
-    "El Terreno",
-    "Camp d'en Serralta",
-    "Son Espanyolet",
-    "UIB / Son Lledó"
-  ],
-  "jaen": [
-    "Centro",
-    "Bulevar",
-    "Peñamefécit",
-    "Las Fuentezuelas",
-    "San Ildefonso",
-    "Universidad",
-    "La Alcantarilla"
-  ],
-  "huelva": [
-    "Centro",
-    "Isla Chica",
-    "El Matadero",
-    "Zafra",
-    "La Merced",
-    "Los Rosales",
-    "Campus El Carmen"
-  ],
-  "almeria": [
-    "Centro",
-    "Nueva Andalucía",
-    "Zapillo",
-    "Ciudad Jardín",
-    "Vega de Acá",
-    "Retamar",
-    "La Cañada / UAL"
+  "cadiz": [
+    "Centro Histórico",
+    "La Viña",
+    "El Mentidero",
+    "Santa María",
+    "La Laguna",
+    "Segunda Aguada",
+    "Bahía Blanca",
+    "Puntales",
+    "Puerto Real Centro",
+    "Campus Río San Pedro"
   ]
 };
 
 window.STUDENTBNB_DATA = {
   "countryCode": "ES",
-  "schemaVersion": "1.0",
+  "schemaVersion": "1.1",
   "cities": [
     {
       "id": "city_es_madrid",
-      "countryCode": "ES",
       "slug": "madrid",
       "name": "Madrid",
-      "region": "Comunidad de Madrid"
+      "region": "Comunidad de Madrid",
+      "heroImage": "assets/img/citta-madrid.webp",
+      "market": "metropolitan",
+      "countryCode": "ES",
+      "studentMarket": "20k+",
+      "active": true
     },
     {
       "id": "city_es_barcelona",
-      "countryCode": "ES",
       "slug": "barcelona",
       "name": "Barcelona",
-      "region": "Cataluña"
+      "region": "Cataluña",
+      "heroImage": "assets/img/citta-barcelona.webp",
+      "market": "metropolitan",
+      "countryCode": "ES",
+      "studentMarket": "20k+",
+      "active": true
     },
     {
       "id": "city_es_valencia",
-      "countryCode": "ES",
       "slug": "valencia",
       "name": "Valencia",
-      "region": "Comunitat Valenciana"
+      "region": "Comunitat Valenciana",
+      "heroImage": "assets/img/citta-valencia.webp",
+      "market": "city",
+      "countryCode": "ES",
+      "studentMarket": "20k+",
+      "active": true
     },
     {
       "id": "city_es_sevilla",
-      "countryCode": "ES",
       "slug": "sevilla",
       "name": "Sevilla",
-      "region": "Andalucía"
+      "region": "Andalucía",
+      "heroImage": "assets/img/citta-sevilla.webp",
+      "market": "city",
+      "countryCode": "ES",
+      "studentMarket": "20k+",
+      "active": true
     },
     {
       "id": "city_es_granada",
-      "countryCode": "ES",
       "slug": "granada",
       "name": "Granada",
-      "region": "Andalucía"
-    },
-    {
-      "id": "city_es_salamanca",
+      "region": "Andalucía",
+      "heroImage": "assets/img/citta-granada.webp",
+      "market": "city",
       "countryCode": "ES",
-      "slug": "salamanca",
-      "name": "Salamanca",
-      "region": "Castilla y León"
+      "studentMarket": "20k+",
+      "active": true
     },
     {
       "id": "city_es_zaragoza",
-      "countryCode": "ES",
       "slug": "zaragoza",
       "name": "Zaragoza",
-      "region": "Aragón"
-    },
-    {
-      "id": "city_es_bilbao",
+      "region": "Aragón",
+      "heroImage": "assets/img/citta-zaragoza.webp",
+      "market": "city",
       "countryCode": "ES",
-      "slug": "bilbao",
-      "name": "Bilbao",
-      "region": "País Vasco"
+      "studentMarket": "20k+",
+      "active": true
     },
     {
       "id": "city_es_malaga",
-      "countryCode": "ES",
       "slug": "malaga",
       "name": "Málaga",
-      "region": "Andalucía"
-    },
-    {
-      "id": "city_es_alicante",
+      "region": "Andalucía",
+      "heroImage": "assets/img/citta-malaga.webp",
+      "market": "city",
       "countryCode": "ES",
-      "slug": "alicante",
-      "name": "Alicante",
-      "region": "Comunitat Valenciana"
+      "studentMarket": "20k+",
+      "active": true
     },
     {
       "id": "city_es_murcia",
-      "countryCode": "ES",
       "slug": "murcia",
       "name": "Murcia",
-      "region": "Región de Murcia"
+      "region": "Región de Murcia",
+      "heroImage": "assets/img/citta-murcia.webp",
+      "market": "city",
+      "countryCode": "ES",
+      "studentMarket": "20k+",
+      "active": true
     },
     {
-      "id": "city_es_valladolid",
+      "id": "city_es_alicante",
+      "slug": "alicante",
+      "name": "Alicante–San Vicente",
+      "region": "Comunitat Valenciana",
+      "heroImage": "assets/img/citta-alicante.webp",
+      "market": "university_pole",
       "countryCode": "ES",
-      "slug": "valladolid",
-      "name": "Valladolid",
-      "region": "Castilla y León"
+      "studentMarket": "20k+",
+      "active": true
+    },
+    {
+      "id": "city_es_salamanca",
+      "slug": "salamanca",
+      "name": "Salamanca",
+      "region": "Castilla y León",
+      "heroImage": "assets/img/citta-salamanca.webp",
+      "market": "city",
+      "countryCode": "ES",
+      "studentMarket": "20k+",
+      "active": true
     },
     {
       "id": "city_es_santiago_de_compostela",
-      "countryCode": "ES",
       "slug": "santiago-de-compostela",
       "name": "Santiago de Compostela",
-      "region": "Galicia"
+      "region": "Galicia",
+      "heroImage": "assets/img/citta-santiago.webp",
+      "market": "university_pole",
+      "countryCode": "ES",
+      "studentMarket": "20k+",
+      "active": true
     },
     {
-      "id": "city_es_a_coruna",
+      "id": "city_es_valladolid",
+      "slug": "valladolid",
+      "name": "Valladolid",
+      "region": "Castilla y León",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Valladolid%20-%20Plaza%20Mayor%2002b.jpg?width=1600",
+      "market": "university_pole",
       "countryCode": "ES",
-      "slug": "a-coruna",
-      "name": "A Coruña",
-      "region": "Galicia"
+      "studentMarket": "20k+",
+      "active": true
     },
     {
-      "id": "city_es_vigo",
+      "id": "city_es_bilbao",
+      "slug": "bilbao",
+      "name": "Bilbao–Leioa",
+      "region": "País Vasco",
+      "heroImage": "assets/img/citta-bilbao.webp",
+      "market": "university_pole",
       "countryCode": "ES",
-      "slug": "vigo",
-      "name": "Vigo",
-      "region": "Galicia"
-    },
-    {
-      "id": "city_es_oviedo",
-      "countryCode": "ES",
-      "slug": "oviedo",
-      "name": "Oviedo",
-      "region": "Asturias"
-    },
-    {
-      "id": "city_es_santander",
-      "countryCode": "ES",
-      "slug": "santander",
-      "name": "Santander",
-      "region": "Cantabria"
-    },
-    {
-      "id": "city_es_pamplona",
-      "countryCode": "ES",
-      "slug": "pamplona",
-      "name": "Pamplona",
-      "region": "Navarra"
-    },
-    {
-      "id": "city_es_san_sebastian",
-      "countryCode": "ES",
-      "slug": "san-sebastian",
-      "name": "San Sebastián",
-      "region": "País Vasco"
+      "studentMarket": "20k+",
+      "active": true
     },
     {
       "id": "city_es_cordoba",
-      "countryCode": "ES",
       "slug": "cordoba",
       "name": "Córdoba",
-      "region": "Andalucía"
+      "region": "Andalucía",
+      "heroImage": "assets/img/citta-cordoba.webp",
+      "market": "university_pole",
+      "countryCode": "ES",
+      "studentMarket": "20k+",
+      "active": true
     },
     {
-      "id": "city_es_cadiz",
+      "id": "city_es_pamplona",
+      "slug": "pamplona",
+      "name": "Pamplona",
+      "region": "Navarra",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Pamplona%20-%20Plaza%20del%20Castillo%2011.jpg?width=1600",
+      "market": "city",
       "countryCode": "ES",
-      "slug": "cadiz",
-      "name": "Cádiz",
-      "region": "Andalucía"
-    },
-    {
-      "id": "city_es_castellon",
-      "countryCode": "ES",
-      "slug": "castellon",
-      "name": "Castellón de la Plana",
-      "region": "Comunitat Valenciana"
-    },
-    {
-      "id": "city_es_tarragona",
-      "countryCode": "ES",
-      "slug": "tarragona",
-      "name": "Tarragona",
-      "region": "Cataluña"
-    },
-    {
-      "id": "city_es_lleida",
-      "countryCode": "ES",
-      "slug": "lleida",
-      "name": "Lleida",
-      "region": "Cataluña"
-    },
-    {
-      "id": "city_es_girona",
-      "countryCode": "ES",
-      "slug": "girona",
-      "name": "Girona",
-      "region": "Cataluña"
-    },
-    {
-      "id": "city_es_alcala_de_henares",
-      "countryCode": "ES",
-      "slug": "alcala-de-henares",
-      "name": "Alcalá de Henares",
-      "region": "Comunidad de Madrid"
-    },
-    {
-      "id": "city_es_toledo",
-      "countryCode": "ES",
-      "slug": "toledo",
-      "name": "Toledo",
-      "region": "Castilla-La Mancha"
-    },
-    {
-      "id": "city_es_ciudad_real",
-      "countryCode": "ES",
-      "slug": "ciudad-real",
-      "name": "Ciudad Real",
-      "region": "Castilla-La Mancha"
-    },
-    {
-      "id": "city_es_albacete",
-      "countryCode": "ES",
-      "slug": "albacete",
-      "name": "Albacete",
-      "region": "Castilla-La Mancha"
-    },
-    {
-      "id": "city_es_leon",
-      "countryCode": "ES",
-      "slug": "leon",
-      "name": "León",
-      "region": "Castilla y León"
-    },
-    {
-      "id": "city_es_burgos",
-      "countryCode": "ES",
-      "slug": "burgos",
-      "name": "Burgos",
-      "region": "Castilla y León"
-    },
-    {
-      "id": "city_es_caceres",
-      "countryCode": "ES",
-      "slug": "caceres",
-      "name": "Cáceres",
-      "region": "Extremadura"
-    },
-    {
-      "id": "city_es_las_palmas",
-      "countryCode": "ES",
-      "slug": "las-palmas",
-      "name": "Las Palmas de Gran Canaria",
-      "region": "Canarias"
+      "studentMarket": "20k+",
+      "active": true
     },
     {
       "id": "city_es_la_laguna",
-      "countryCode": "ES",
       "slug": "la-laguna",
-      "name": "San Cristóbal de La Laguna",
-      "region": "Canarias"
+      "name": "La Laguna–Santa Cruz",
+      "region": "Canarias",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Plaza%20Junta%20Suprema%2C%20San%20Crist%C3%B3bal%20de%20La%20Laguna%205.jpg?width=1600",
+      "market": "university_pole",
+      "countryCode": "ES",
+      "studentMarket": "20k+",
+      "active": true
     },
     {
-      "id": "city_es_palma",
+      "id": "city_es_oviedo",
+      "slug": "oviedo",
+      "name": "Oviedo–Gijón",
+      "region": "Asturias",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Catedral%20de%20Oviedo%20desde%20Porlier.jpg?width=1600",
+      "market": "university_pole",
       "countryCode": "ES",
-      "slug": "palma",
-      "name": "Palma",
-      "region": "Illes Balears"
+      "studentMarket": "20k+",
+      "active": true
     },
     {
-      "id": "city_es_jaen",
+      "id": "city_es_alcala_de_henares",
+      "slug": "alcala-de-henares",
+      "name": "Alcalá de Henares",
+      "region": "Comunidad de Madrid",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Universidad%20de%20Alcal%C3%A1%20de%20Henares%2C%20fachada.jpg?width=1600",
+      "market": "university_pole",
       "countryCode": "ES",
-      "slug": "jaen",
-      "name": "Jaén",
-      "region": "Andalucía"
+      "studentMarket": "20k+",
+      "active": true
     },
     {
-      "id": "city_es_huelva",
+      "id": "city_es_cadiz",
+      "slug": "cadiz",
+      "name": "Cádiz–Puerto Real",
+      "region": "Andalucía",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Catedral%20of%20Cadiz.jpg?width=1600",
+      "market": "university_pole",
       "countryCode": "ES",
-      "slug": "huelva",
-      "name": "Huelva",
-      "region": "Andalucía"
-    },
-    {
-      "id": "city_es_almeria",
-      "countryCode": "ES",
-      "slug": "almeria",
-      "name": "Almería",
-      "region": "Andalucía"
+      "studentMarket": "20k+",
+      "active": true
     }
   ],
   "listings": [
@@ -1036,7 +755,8 @@ window.STUDENTBNB_DATA = {
         "description": "Piso tranquilo entre semana y social los fines de semana, con espacios comunes cuidados."
       },
       "published": "hoy",
-      "updated": "hoy"
+      "updated": "hoy",
+      "citySlug": "madrid"
     },
     {
       "id": "df0e6be4-14c4-4db5-91b6-36dbbb470202",
@@ -1111,7 +831,8 @@ window.STUDENTBNB_DATA = {
         "description": "Ambiente internacional y respetuoso, con estudiantes de máster y Erasmus."
       },
       "published": "ayer",
-      "updated": "hoy"
+      "updated": "hoy",
+      "citySlug": "barcelona"
     },
     {
       "id": "d8160896-ff9c-41ae-9230-fabffb470303",
@@ -1184,7 +905,8 @@ window.STUDENTBNB_DATA = {
         "description": "Casa tranquila, especialmente entre semana."
       },
       "published": "2 días",
-      "updated": "2 días"
+      "updated": "2 días",
+      "citySlug": "valencia"
     },
     {
       "id": "25066af8-16bc-4db3-9780-8ac1bb470404",
@@ -1257,7 +979,8 @@ window.STUDENTBNB_DATA = {
         "description": "Convivencia estudiantil con normas sencillas y servicios organizados."
       },
       "published": "3 días",
-      "updated": "ayer"
+      "updated": "ayer",
+      "citySlug": "sevilla"
     },
     {
       "id": "bc1f3a32-c8a0-4874-9b83-c105bb470505",
@@ -1343,7 +1066,8 @@ window.STUDENTBNB_DATA = {
         "notes": "Horarios y tareas se acuerdan cada semana."
       },
       "published": "hoy",
-      "updated": "hoy"
+      "updated": "hoy",
+      "citySlug": "granada"
     }
   ]
 };
@@ -1387,7 +1111,8 @@ window.STUDENTBNB_REQUESTS = [
     "phone": "611 222 333",
     "whatsapp": "34611222333",
     "verified": true,
-    "published": "hoy"
+    "published": "hoy",
+    "citySlug": "madrid"
   },
   {
     "id": "b0cfb064-378f-43d7-b8ac-d3b811c00202",
@@ -1428,7 +1153,8 @@ window.STUDENTBNB_REQUESTS = [
     "phone": "622 333 444",
     "whatsapp": "34622333444",
     "verified": true,
-    "published": "ayer"
+    "published": "ayer",
+    "citySlug": "barcelona"
   },
   {
     "id": "cd0aff99-b74c-4a99-98f8-673911c00303",
@@ -1473,6 +1199,7 @@ window.STUDENTBNB_REQUESTS = [
     "phone": "633 444 555",
     "whatsapp": "34633444555",
     "verified": false,
-    "published": "2 días"
+    "published": "2 días",
+    "citySlug": "granada"
   }
 ];

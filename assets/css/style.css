@@ -525,3 +525,18 @@ button{cursor:pointer}
 .footer-country-links a[aria-current="page"]{font-weight:800;text-decoration:underline;text-underline-offset:4px}
 @media(max-width:1050px){.map-stage.spain-map,.map-stage.spain-map img{height:auto!important;min-height:0!important}}
 @media(max-width:820px){.map-stage.spain-map{max-width:720px;margin:8px auto 0}}
+
+
+/* España v2 — mapa ilustrado preferido de la versión anterior */
+.map-stage.spain-map{aspect-ratio:auto;min-height:830px;height:830px;margin-top:-8px}
+.map-stage.spain-map img{width:100%;height:830px!important;min-height:830px!important;object-fit:contain;object-position:center top;filter:drop-shadow(0 12px 16px rgba(45,65,85,.07))}
+.spain-map .map-hotspot{width:13%;height:7%;display:flex;align-items:flex-end;justify-content:center;border-radius:14px}
+.spain-map .map-hotspot span{background:rgba(255,255,255,.96);padding:4px 7px;border-radius:7px;box-shadow:0 4px 12px rgba(0,0,0,.14);font-size:10.5px;font-weight:850;white-space:nowrap;line-height:1.05}
+.spain-map .hot-santiago{left:14%;top:13%}.spain-map .hot-oviedo{left:29%;top:10%}.spain-map .hot-bilbao{left:45%;top:10%}.spain-map .hot-pamplona{left:54%;top:14%}
+.spain-map .hot-valladolid{left:35%;top:24%}.spain-map .hot-salamanca{left:23%;top:34%}.spain-map .hot-madrid{left:43%;top:39%}.spain-map .hot-alcala{left:50%;top:40%}
+.spain-map .hot-zaragoza{left:58%;top:27%}.spain-map .hot-barcelona{left:73%;top:20%}.spain-map .hot-valencia{left:66%;top:44%}.spain-map .hot-cordoba{left:39%;top:55%}
+.spain-map .hot-sevilla{left:19%;top:61%}.spain-map .hot-cadiz{left:14%;top:70%}.spain-map .hot-granada{left:46%;top:68%}.spain-map .hot-malaga{left:38%;top:75%}
+.spain-map .hot-alicante{left:68%;top:57%}.spain-map .hot-murcia{left:61%;top:66%}.spain-map .hot-la-laguna{left:55%;top:88%}
+@media(max-width:1050px){.map-stage.spain-map{height:720px;min-height:720px}.map-stage.spain-map img{height:720px!important;min-height:720px!important}.spain-map .map-hotspot span{font-size:9px;padding:3px 5px}}
+@media(max-width:820px){.map-stage.spain-map{height:560px;min-height:560px;max-width:620px;margin:8px auto 0}.map-stage.spain-map img{height:560px!important;min-height:560px!important}.spain-map .map-hotspot span{font-size:8px;padding:3px 4px}.spain-map .map-hotspot{width:15%}}
+@media(max-width:520px){.map-stage.spain-map{height:500px;min-height:500px}.map-stage.spain-map img{height:500px!important;min-height:500px!important}.spain-map .map-hotspot span{font-size:7px;padding:2px 3px;max-width:72px;overflow:hidden;text-overflow:ellipsis}.spain-map .hot-alcala,.spain-map .hot-pamplona{transform:translateY(10px)}}

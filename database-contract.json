@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "1.1",
   "scope": "EU",
   "countryFrontend": {
     "domain": "studentbnb.es",
@@ -22,7 +22,9 @@
       "name",
       "region",
       "hero_image_url",
-      "active"
+      "active",
+      "market_type",
+      "student_market_band"
     ],
     "districts": [
       "id",
@@ -120,5 +122,17 @@
     "POST /api/v1/favorites",
     "POST /api/v1/saved-searches"
   ],
-  "migrationNote": "The current package runs in demo mode with local data. City and listing records already carry countryCode/cityId and UUID-style entity IDs so the data provider can later be replaced by the shared EU API without changing page URLs or country routing."
+  "migrationNote": "Demo mode uses local data, but countryCode, cityId, city slugs and UUID-style listing/request IDs are already aligned with the future shared European API. Spain v2 also stores city hero images and a 20k+ market classification.",
+  "citySelectionPolicy": {
+    "countryCode": "ES",
+    "threshold": "approximately 20,000+ university students",
+    "levels": [
+      "grado",
+      "master",
+      "doctorado"
+    ],
+    "marketUnit": "city or coherent university housing pole when campuses share the same rental market",
+    "selectedMarkets": 19,
+    "note": "Selection is a frontend market rule, not a legal/administrative definition of municipal enrollment."
+  }
 }
