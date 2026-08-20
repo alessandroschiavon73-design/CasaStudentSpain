@@ -1,0 +1,12 @@
+QA StudentBnB España DB-Ready v1
+================================
+HTML pages: 9
+Local broken links/assets: 0
+Critical Italian/Padova leftovers: 0
+JavaScript syntax: checked separately with node --check
+Cities configured: 38 (all countryCode ES)
+Demo listings: 5 across Madrid, Barcelona, Valencia, Sevilla, Granada
+Demo student requests: 3
+Generic city route: ciudad.html?city=<slug>
+Unified DB preparation: countryCode + cityId + UUID-style entity IDs + database-contract.json
+Intentional cross-country footer label: Italia -> https://studentbnb.it/
