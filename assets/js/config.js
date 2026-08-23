@@ -1,5 +1,6 @@
 window.STUDENTBNB_CONFIG = Object.freeze({
   appName: "StudentBnB",
+  brandLine: "Base & Belong",
   countryCode: "ES",
   countryName: "España",
   locale: "es-ES",
@@ -11,5 +12,5 @@ window.STUDENTBNB_CONFIG = Object.freeze({
   apiMode: "demo",
   apiBase: "/api/v1",
   unifiedDatabase: true,
-  schemaVersion: "1.0"
+  schemaVersion: "1.1"
 });
