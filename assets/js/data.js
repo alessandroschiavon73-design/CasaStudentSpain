@@ -1203,3 +1203,8 @@ window.STUDENTBNB_REQUESTS = [
     "citySlug": "granada"
   }
 ];
+
+// Los registros incluidos son ejemplos de interfaz; los anuncios creados por
+// una persona usuaria se guardan aparte y no reciben esta marca.
+window.STUDENTBNB_DATA.listings = window.STUDENTBNB_DATA.listings.map(listing => ({...listing, isDemo:true}));
+window.STUDENTBNB_REQUESTS = window.STUDENTBNB_REQUESTS.map(request => ({...request, isDemo:true}));
