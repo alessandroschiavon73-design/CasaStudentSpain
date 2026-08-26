@@ -5,6 +5,19 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#ffc400">
 <link rel="stylesheet" href="assets/css/style.css">
+<style>
+@media(max-width:590px){
+  .solidarity-content .container{width:min(100% - 28px,var(--max));margin-inline:auto}
+  .solidarity-content .publish-banner{display:flex!important;flex-direction:column!important;align-items:center!important;text-align:center!important;width:100%!important;max-width:100%!important;margin:24px auto!important;padding:24px 18px!important;overflow:hidden}
+  .solidarity-content .publish-banner>div{width:100%;max-width:100%}
+  .solidarity-content .student-illustration{margin:0 auto!important;justify-self:auto!important}
+  .solidarity-content .publish-choice-grid{display:grid!important;grid-template-columns:1fr!important;width:100%!important;gap:12px!important}
+  .solidarity-content .publish-choice{width:100%!important;max-width:100%!important;margin:0!important;text-align:left}
+  .solidarity-page-grid{grid-template-columns:1fr!important}
+  .solidarity-page-actions{justify-content:center}
+  .solidarity-card-visual{width:100%;max-width:520px;margin-inline:auto}
+}
+</style>
 <title>Alojamiento solidario entre mayores y estudiantes | StudentBnB</title>
 <meta name="description" content="Una habitación a precio reducido para un estudiante a cambio de compañía y pequeñas ayudas acordadas con una persona mayor.">
 </head>
@@ -60,18 +73,8 @@
       </div>
 
       <div class="solidarity-safety">
-        <section class="info-card">
-          <h2>✓ Pequeñas ayudas posibles</h2>
-          <div class="solidarity-example-list">
-            <span>Compañía y conversación</span><span>Una compra o pequeños recados</span><span>Ayuda con móvil y ordenador</span><span>Pequeñas tareas domésticas compartidas</span><span>Compartir una cena de vez en cuando</span><span>Presencia ocasional acordada por la tarde/noche</span>
-          </div>
-        </section>
-        <section class="info-card">
-          <h2>× Qué no se puede pedir</h2>
-          <div class="solidarity-example-list">
-            <span>Cuidados sanitarios</span><span>Higiene o cuidados personales</span><span>Administración de medicamentos</span><span>Vigilancia continua</span><span>Trabajos pesados o profesionales</span><span>Disponibilidad sin límites horarios</span>
-          </div>
-        </section>
+        <section class="info-card"><h2>✓ Pequeñas ayudas posibles</h2><div class="solidarity-example-list"><span>Compañía y conversación</span><span>Una compra o pequeños recados</span><span>Ayuda con móvil y ordenador</span><span>Pequeñas tareas domésticas compartidas</span><span>Compartir una cena de vez en cuando</span><span>Presencia ocasional acordada por la tarde/noche</span></div></section>
+        <section class="info-card"><h2>× Qué no se puede pedir</h2><div class="solidarity-example-list"><span>Cuidados sanitarios</span><span>Higiene o cuidados personales</span><span>Administración de medicamentos</span><span>Vigilancia continua</span><span>Trabajos pesados o profesionales</span><span>Disponibilidad sin límites horarios</span></div></section>
       </div>
 
       <div class="stats-strip" style="margin-top:34px">
@@ -94,7 +97,7 @@
 </main>
 
 <footer class="site-footer" id="contacto"><div class="container"><div class="footer-grid">
-  <div><a class="brand" href="index.html" style="font-size:27px"><span>Student<strong>BnB</strong></span></a><p>La plataforma dedicada al alojamiento universitario: costes, condiciones y servicios comparables con claridad.</p></div>
+  <div><a class="brand" href="index.html" style="font-size:27px"><span>Student<strong>BnB</strong></span></a><p>StudentBnB está dedicado al alojamiento estudiantil de media y larga estancia: meses, semestres o curso académico. No está pensado para estancias turísticas cortas.</p></div>
   <div><h3>Explora</h3><div class="footer-links"><a href="ciudad.html">Alojamientos en España</a><a href="estudiantes.html">Estudiantes que buscan</a><a href="busco.html">Busco alojamiento</a><a href="casa-solidaria.html">Alojamiento solidario</a><a href="publicar.html">Publicar anuncio</a></div></div>
   <div><h3>Proyecto</h3><div class="footer-links"><a href="index.html#como-funciona">Cómo funciona</a><a href="index.html#quienes-somos">Quiénes somos</a><a href="index.html#faq">Preguntas frecuentes</a></div></div>
   <div><h3>Seguridad</h3><div class="footer-links"><a href="privacidad.html">Privacidad y condiciones</a><a href="privacidad.html#seguridad">Prevención de fraudes</a><a href="mailto:reportes@studentbnb.es">Reportar un anuncio</a></div></div>
