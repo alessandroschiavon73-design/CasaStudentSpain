@@ -5,7 +5,7 @@ window.STUDENTBNB_CONFIG = Object.freeze({
   countryName: "España",
   locale: "es-ES",
   currency: "EUR",
-  domain: "studentbnb.es",
+  domain: "casastudent.es",
   defaultCity: "madrid",
   cityPage: "ciudad.html",
   reportEmail: "reportes@studentbnb.es",
@@ -18,11 +18,12 @@ window.STUDENTBNB_CONFIG = Object.freeze({
 (function () {
   const cfg = window.STUDENTBNB_CONFIG;
   const sites = [
-    ["IT", "Italia", "assets/img/flag-it.svg", "https://studentbnb.it/"],
-    ["ES", "España", "assets/img/flag-es.svg", "https://studentbnb.es/"],
-    ["FR", "France", "assets/img/flag-fr.svg", "https://studentbnb.fr/"],
-    ["DE", "Deutschland", "assets/img/flag-de.svg", "https://student-bnb.de/"],
-    ["PL", "Polska", "assets/img/flag-pl.svg", "https://studentbnb.pl/"]
+    ["EU", "Europe", "assets/img/flag-eu.svg", "https://casastudent.eu/"],
+    ["IT", "Italia", "assets/img/flag-it.svg", "https://casastudent.it/"],
+    ["ES", "España", "assets/img/flag-es.svg", "https://casastudent.es/"],
+    ["FR", "France", "assets/img/flag-fr.svg", "https://casastudent.fr/"],
+    ["DE", "Deutschland", "assets/img/flag-de.svg", "https://casastudent.de/"],
+    ["PL", "Polska", "assets/img/flag-pl.svg", "https://casastudent.pl/"]
   ];
   const ogImage = `https://${cfg.domain}/assets/img/spagna-proposta1.webp`;
   function meta(key, value, content) { let element = document.head.querySelector(`meta[${key}="${value}"]`); if (!element) { element = document.createElement("meta"); element.setAttribute(key, value); document.head.appendChild(element); } element.content = content; }
