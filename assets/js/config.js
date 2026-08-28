@@ -39,7 +39,7 @@ window.STUDENTBNB_CONFIG = Object.freeze({
     if (fp) fp.textContent = "CasaStudent está dedicado al alojamiento estudiantil de media y larga estancia: meses, semestres o curso académico. No está pensado para estancias turísticas cortas.";
     meta("name", "robots", "index,follow,max-image-preview:large"); meta("property", "og:site_name", "CasaStudent — Base & Belong"); meta("property", "og:type", "website"); meta("name", "twitter:card", "summary_large_image"); updateSeo(); addStructuredData();
     const page = location.pathname.endsWith("/") ? "" : location.pathname.split("/").pop(); if (!page || page === "index.html") sites.forEach(([code, , , url]) => link("alternate", url, code.toLowerCase()));
-    const box = document.querySelector(".footer-international .footer-country-links"); if (box) { box.innerHTML = sites.map(([code, label, flag, url]) => `<a href="${url}"${code === cfg.countryCode ? ' aria-current="page"' : ' target="_blank" rel="noopener"'}><img class="network-flag" src="${flag}" alt="" width="30" height="20"><span>${label}</span><span class="network-open" aria-hidden="true">↗</span></a>`).join(""); }
+    const box = document.querySelector(".footer-international .footer-country-links"); if (box) { box.innerHTML = sites.map(([code, label, flag, url]) => `<a href="${url}"${code === cfg.countryCode ? ' aria-current="page"' : ''}><img class="network-flag" src="${flag}" alt="" width="30" height="20"><span>${label}</span><span class="network-open" aria-hidden="true">↗</span></a>`).join(""); }
   }
   window.StudentBnBSEO = { update: updateSeo };
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", apply); else apply();
