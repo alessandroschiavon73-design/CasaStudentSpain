@@ -45,4 +45,4 @@ GRÁFICA
 - Para Valladolid, Pamplona, La Laguna, Oviedo, Alcalá de Henares y Cádiz se usan imágenes remotas de Wikimedia Commons mediante Special:FilePath; ver ASSET_CREDITS.txt.
 
 PUBLICACIÓN
-Subir el contenido de esta carpeta a la raíz de studentbnb.es. El sitio sigue funcionando en modo demo/localStorage hasta la conexión con el backend único.
+Subir el contenido de esta carpeta a la raíz de casastudent.es. El sitio sigue funcionando en modo demo/localStorage hasta la conexión con el backend único.

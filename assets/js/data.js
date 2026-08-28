@@ -737,7 +737,7 @@ window.STUDENTBNB_DATA = {
       "publisher": "Particular",
       "verified": true,
       "phone": "612 345 671",
-      "email": "madrid.demo@studentbnb.es",
+      "email": "madrid.demo@casastudent.es",
       "whatsapp": "34612345671",
       "household": {
         "composition": "2 estudiantes",
@@ -813,7 +813,7 @@ window.STUDENTBNB_DATA = {
       "verified": true,
       "agencyFee": "€ 500 + IVA",
       "phone": "931 234 567",
-      "email": "barcelona.demo@studentbnb.es",
+      "email": "barcelona.demo@casastudent.es",
       "whatsapp": "34931234567",
       "household": {
         "composition": "3 estudiantes internacionales",
@@ -888,7 +888,7 @@ window.STUDENTBNB_DATA = {
       "publisher": "Particular",
       "verified": true,
       "phone": "623 111 222",
-      "email": "valencia.demo@studentbnb.es",
+      "email": "valencia.demo@casastudent.es",
       "whatsapp": "34623111222",
       "household": {
         "composition": "2 estudiantes",
@@ -962,7 +962,7 @@ window.STUDENTBNB_DATA = {
       "publisher": "Residencia/Gestor",
       "verified": true,
       "phone": "954 555 210",
-      "email": "sevilla.demo@studentbnb.es",
+      "email": "sevilla.demo@casastudent.es",
       "whatsapp": "34954555210",
       "household": {
         "composition": "3 estudiantes",
@@ -1037,7 +1037,7 @@ window.STUDENTBNB_DATA = {
       "publisher": "Particular",
       "verified": true,
       "phone": "644 765 432",
-      "email": "solidaria.granada@studentbnb.es",
+      "email": "solidaria.granada@casastudent.es",
       "whatsapp": "34644765432",
       "household": {
         "composition": "Una persona mayor autónoma",
