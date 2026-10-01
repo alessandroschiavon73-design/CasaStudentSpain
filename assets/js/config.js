@@ -6,6 +6,8 @@ window.STUDENTBNB_CONFIG = Object.freeze({
   locale: "es-ES",
   currency: "EUR",
   domain: "casastudent.es",
+  supabaseUrl: "https://etyvaugscofodkhklqqz.supabase.co",
+  supabasePublishableKey: "sb_publishable_MJiby1pof0ghYnw1UMx-jQ_bpQKyd0L",
   defaultCity: "madrid",
   cityPage: "ciudad.html",
   reportEmail: "reportes@casastudent.es",
