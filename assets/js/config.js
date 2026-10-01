@@ -11,7 +11,7 @@ window.STUDENTBNB_CONFIG = Object.freeze({
   defaultCity: "madrid",
   cityPage: "ciudad.html",
   reportEmail: "reportes@casastudent.es",
-  apiMode: "demo",
+  apiMode: "supabase",
   apiBase: "/api/v1",
   unifiedDatabase: true,
   schemaVersion: "1.2"
@@ -153,4 +153,13 @@ window.STUDENTBNB_CONFIG = Object.freeze({
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", applyAfterBranding);
   else applyAfterBranding();
+})();
+
+(function(){
+  if(document.querySelector('script[data-casastudent-supabase]')) return;
+  const s=document.createElement('script');
+  s.src='assets/js/supabase-integration.js?v=20261001-db';
+  s.defer=true;
+  s.dataset.casastudentSupabase='1';
+  document.head.appendChild(s);
 })();
